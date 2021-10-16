@@ -1,0 +1,125 @@
+>>> from deepstomata import *
+>>> deepstomata("C:/Users/Rx-80/OneDrive/デスクトップ/研究室/stomata/201216/WT mock")
+Reading config file
+using user defined config.ini from: C:\Users\Rx-80\OneDrive\deepstomata-master\deepstomata/config.ini
+        config file path: C:\Users\Rx-80\OneDrive\deepstomata-master\deepstomata/config.ini
+        Reading config file.
+        Validating detector path
+        Detector located
+        Validating classifier path
+        Classifier located
+config file imported properly
+listing image files in: C:/Users/Rx-80/OneDrive/デスクトップ/研究室/stomata/201216/WT mock
+directory detected. reading files inside directory.
+Will be analyzing the listed files...
+['seq22124_result.jpg', 'seq22125_result.jpg', 'seq22126_result.jpg', 'seq22128_result.jpg', 'seq22129_result.jpg', 'seq22130_result.jpg', 'seq22131_result.jpg', 'seq22132_result.jpg', 'seq22133_result.jpg', 'seq22134_result.jpg', 'seq22135_result.jpg', 'seq22136_result.jpg', 'seq22137_result.jpg', 'seq22138_result.jpg', 'seq22139_result.jpg', 'seq22140_result.jpg', 'seq22141_result.jpg', 'seq22142_result.jpg', 'seq22143_result.jpg', 'seq22144_result.jpg', 'seq22145_result.jpg', 'seq22146_result.jpg', 'seq22147_result.jpg', 'seq22148_result.jpg', 'seq22149_result.jpg', 'seq22150_result.jpg', 'seq22151_result.jpg', 'seq22152_result.jpg', 'seq22153_result.jpg', 'seq22154_result.jpg', 'seq22155_result.jpg', 'seq22156_result.jpg', 'seq22157_result.jpg', 'seq22158_result.jpg', 'seq22159_result.jpg', 'seq22160_result.jpg', 'seq22161_result.jpg', 'seq22162_result.jpg', 'seq22163_result.jpg']
+analysis start
+
+seq22124_result.jpg
+         2 stomata detected
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\util\tensor_slice_reader.cc:95] Could not open C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\util\tensor_slice_reader.cc:95] Could not open C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\util\tensor_slice_reader.cc:95] Could not open C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:975] Data loss: Unable to open table file C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\util\tensor_slice_reader.cc:95] Could not open C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:975] Data loss: Unable to open table file C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\util\tensor_slice_reader.cc:95] Could not open C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\util\tensor_slice_reader.cc:95] Could not open C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:975] Data loss: Unable to open table file C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\util\tensor_slice_reader.cc:95] Could not open C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\util\tensor_slice_reader.cc:95] Could not open C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:975] Data loss: Unable to open table file C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\util\tensor_slice_reader.cc:95] Could not open C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\util\tensor_slice_reader.cc:95] Could not open C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\util\tensor_slice_reader.cc:95] Could not open C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:975] Data loss: Unable to open table file C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\util\tensor_slice_reader.cc:95] Could not open C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\util\tensor_slice_reader.cc:95] Could not open C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:975] Data loss: Unable to open table file C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\util\tensor_slice_reader.cc:95] Could not open C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\util\tensor_slice_reader.cc:95] Could not open C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:975] Data loss: Unable to open table file C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\util\tensor_slice_reader.cc:95] Could not open C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\util\tensor_slice_reader.cc:95] Could not open C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:975] Data loss: Unable to open table file C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\util\tensor_slice_reader.cc:95] Could not open C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\util\tensor_slice_reader.cc:95] Could not open C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:975] Data loss: Unable to open table file C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\util\tensor_slice_reader.cc:95] Could not open C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:975] Data loss: Unable to open table file C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\util\tensor_slice_reader.cc:95] Could not open C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\util\tensor_slice_reader.cc:95] Could not open C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\util\tensor_slice_reader.cc:95] Could not open C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:975] Data loss: Unable to open table file C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\util\tensor_slice_reader.cc:95] Could not open C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\util\tensor_slice_reader.cc:95] Could not open C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:975] Data loss: Unable to open table file C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\util\tensor_slice_reader.cc:95] Could not open C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\util\tensor_slice_reader.cc:95] Could not open C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:975] Data loss: Unable to open table file C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\util\tensor_slice_reader.cc:95] Could not open C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:975] Data loss: Unable to open table file C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+Traceback (most recent call last):
+  File "C:\Users\Rx-80\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\client\session.py", line 1021, in _do_call        
+    return fn(*args)
+  File "C:\Users\Rx-80\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\client\session.py", line 1003, in _run_fn
+    status, run_metadata)
+  File "C:\Users\Rx-80\AppData\Local\Programs\Python\Python35\lib\contextlib.py", line 66, in __exit__
+    next(self.gen)
+  File "C:\Users\Rx-80\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\framework\errors_impl.py", line 469, in raise_exception_on_not_ok_status
+    pywrap_tensorflow.TF_GetCode(status))
+tensorflow.python.framework.errors_impl.DataLossError: Unable to open table file C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+         [[Node: save/RestoreV2_3 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save/Const_0, save/RestoreV2_3/tensor_names, save/RestoreV2_3/shape_and_slices)]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Rx-80\OneDrive\deepstomata-master\deepstomata\__init__.py", line 39, in deepstomata
+    utils.analyze(item)  # core module
+  File "C:\Users\Rx-80\OneDrive\deepstomata-master\deepstomata\utils.py", line 556, in analyze
+    image_with_position = draw_stomata_position(image, original_dets)
+  File "C:\Users\Rx-80\OneDrive\deepstomata-master\deepstomata\utils.py", line 486, in stomata_stat_batch_classify
+    '''
+  File "C:\Users\Rx-80\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\training\saver.py", line 1388, in restore
+    {self.saver_def.filename_tensor_name: save_path})
+  File "C:\Users\Rx-80\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\client\session.py", line 766, in run
+    run_metadata_ptr)
+  File "C:\Users\Rx-80\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\client\session.py", line 964, in _run
+    feed_dict_string, options, run_metadata)
+  File "C:\Users\Rx-80\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\client\session.py", line 1014, in _do_run
+    target_list, options, run_metadata)
+  File "C:\Users\Rx-80\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\client\session.py", line 1034, in _do_call        
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.DataLossError: Unable to open table file C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+         [[Node: save/RestoreV2_3 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save/Const_0, save/RestoreV2_3/tensor_names, save/RestoreV2_3/shape_and_slices)]]
+
+Caused by op 'save/RestoreV2_3', defined at:
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Rx-80\OneDrive\deepstomata-master\deepstomata\__init__.py", line 39, in deepstomata
+    utils.analyze(item)  # core module
+  File "C:\Users\Rx-80\OneDrive\deepstomata-master\deepstomata\utils.py", line 556, in analyze
+    image_with_position = draw_stomata_position(image, original_dets)
+  File "C:\Users\Rx-80\OneDrive\deepstomata-master\deepstomata\utils.py", line 483, in stomata_stat_batch_classify
+    ckpt_path : checkpoint absolute path
+  File "C:\Users\Rx-80\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\training\saver.py", line 1000, in __init__        
+    self.build()
+  File "C:\Users\Rx-80\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\training\saver.py", line 1030, in build
+    restore_sequentially=self._restore_sequentially)
+  File "C:\Users\Rx-80\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\training\saver.py", line 624, in build
+    restore_sequentially, reshape)
+  File "C:\Users\Rx-80\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\training\saver.py", line 361, in _AddRestoreOps   
+    tensors = self.restore_op(filename_tensor, saveable, preferred_shard)
+  File "C:\Users\Rx-80\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\training\saver.py", line 200, in restore_op       
+    [spec.tensor.dtype])[0])
+  File "C:\Users\Rx-80\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\ops\gen_io_ops.py", line 441, in restore_v2       
+    dtypes=dtypes, name=name)
+  File "C:\Users\Rx-80\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\framework\op_def_library.py", line 759, in apply_op
+    op_def=op_def)
+  File "C:\Users\Rx-80\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\framework\ops.py", line 2240, in create_op        
+    original_op=self._default_original_op, op_def=op_def)
+  File "C:\Users\Rx-80\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\framework\ops.py", line 1128, in __init__
+    self._traceback = _extract_stack()
+
+DataLossError (see above for traceback): Unable to open table file C:\test\stomata_classify.h5: Data loss: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
+         [[Node: save/RestoreV2_3 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save/Const_0, save/RestoreV2_3/tensor_names, save/RestoreV2_3/shape_and_slices)]]
