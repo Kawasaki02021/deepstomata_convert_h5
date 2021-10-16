@@ -1,3 +1,4 @@
+#DeepStoamtaを実行した際に出たエラーメッセージ
 >>> from deepstomata import *
 >>> deepstomata("C:/Users/Rx-80/OneDrive/デスクトップ/研究室/stomata/201216/WT mock")
 Reading config file
