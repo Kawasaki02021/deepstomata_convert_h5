@@ -71,11 +71,7 @@ model.compile(optimizer=SGD(lr=0.0001,momentum=0.9),
 
 model.summary()
 history = model.fit(X_train, y_train, batch_size, nb_epoch=100, validation_data = (X_test, y_test), verbose = 1)                   
-saver = tf.train.Saver()
-sess= tf.InteractiveSession()
-init = tf.global_variables_initializer()
-sess.run(init)
-saver.save(sess, "C:/Users/Rx-80/Downloads/model/model.ckpt")
+
 import h5py
 eval = model.evaluate(X_test, y_test, verbose=1)
 print("正解率=", eval[1], "ロス=", eval[0])
