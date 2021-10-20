@@ -1,0 +1,32 @@
+>>> deepstomata("C:/Users/Rx-80/OneDrive/デスクトップ/研究室/stomata/201216/WT mock")
+Reading config file
+using user defined config.ini from: C:\Users\Rx-80\OneDrive\deepstomata-master\deepstomata/config.ini
+        config file path: C:\Users\Rx-80\OneDrive\deepstomata-master\deepstomata/config.ini
+        Reading config file.
+        Validating detector path
+        Detector located
+        Validating classifier path
+        Classifier located
+config file imported properly
+listing image files in: C:/Users/Rx-80/OneDrive/デスクトップ/研究室/stomata/201216/WT mock
+directory detected. reading files inside directory.
+Will be analyzing the listed files...
+['seq22124_result.jpg', 'seq22125_result.jpg', 'seq22126_result.jpg', 'seq22128_result.jpg', 'seq22129_result.jpg', 'seq22130_result.jpg', 'seq22131_result.jpg', 'seq22132_result.jpg', 'seq22133_result.jpg', 'seq22134_result.jpg', 'seq22135_result.jpg', 'seq22136_result.jpg', 'seq22137_result.jpg', 'seq22138_result.jpg', 'seq22139_result.jpg', 'seq22140_result.jpg', 'seq22141_result.jpg', 'seq22142_result.jpg', 'seq22143_result.jpg', 'seq22144_result.jpg', 'seq22145_result.jpg', 'seq22146_result.jpg', 'seq22147_result.jpg', 'seq22148_result.jpg', 'seq22149_result.jpg', 'seq22150_result.jpg', 'seq22151_result.jpg', 'seq22152_result.jpg', 'seq22153_result.jpg', 'seq22154_result.jpg', 'seq22155_result.jpg', 'seq22156_result.jpg', 'seq22157_result.jpg', 'seq22158_result.jpg', 'seq22159_result.jpg', 'seq22160_result.jpg', 'seq22161_result.jpg', 'seq22162_result.jpg', 'seq22163_result.jpg']
+analysis start
+
+seq22124_result.jpg
+         2 stomata detected
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Rx-80\OneDrive\deepstomata-master\deepstomata\__init__.py", line 39, in deepstomata
+    utils.analyze(item)  # core module
+  File "C:\Users\Rx-80\OneDrive\deepstomata-master\deepstomata\utils.py", line 573, in analyze
+    results = stomata_stat_batch_classify(stomata_all, len(original_dets), ini['path']['classifier_path'])
+  File "C:\Users\Rx-80\OneDrive\deepstomata-master\deepstomata\utils.py", line 497, in stomata_stat_batch_classify
+    with tf.Session(graph=K.get_session()) as sess:
+  File "C:\Users\Rx-80\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\client\session.py", line 1186, in __init__
+    super(Session, self).__init__(target, graph, config=config)
+  File "C:\Users\Rx-80\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\client\session.py", line 518, in __init__
+    raise TypeError('graph must be a tf.Graph, but got %s' % type(graph))
+TypeError: graph must be a tf.Graph, but got <class 'tensorflow.python.client.session.Session'>
+>>>
